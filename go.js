@@ -10,9 +10,9 @@ function changeCar(phrase, old, news, debut, fin){
    
     
 }
-const phrase = new changeCar(" I have many cars my old is pink colour ","null", "null");
+const phrase = new changeCar(" I have many cars my old is pink colour ",""," ","null", "null");
 console.log(phrase);
-console.log(changeCar(phrase,' ', '*', null, null));
+console.log(phrase.replace('old','new'));
 
 
 
